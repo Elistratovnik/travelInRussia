@@ -1,0 +1,22 @@
+@import url('__content-title/comments__content-title.css');
+@import url('__content-subtitle/comments__content-subtitle.css');
+@import url('__container/comments__container.css');
+
+.comments {
+  max-width: 1184px;
+  padding-top: 107px;
+  padding-bottom: 94px;
+}
+
+@media (max-width: 768px) {
+  .comments {
+    padding-bottom: 48px;
+  }
+}
+
+@media (max-width: 375px) {
+  .comments {
+    padding-top: 64px;
+    padding-bottom: 0;
+  }
+}

@@ -1,0 +1,21 @@
+.intro__quote {
+  margin: 0;
+  /* margin-right: 18px; */
+  max-width: 683px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.75;
+}
+
+@media (max-width: 768px) {
+  .intro__quote {
+    max-width: 768px;
+  }
+}
+
+@media (max-width: 375px) {
+  .intro__quote {
+    font-size: 16px;
+  }
+}

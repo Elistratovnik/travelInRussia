@@ -1,0 +1,15 @@
+.video__content-subtitle {
+  margin: 0 auto 64px auto;
+}
+
+@media (max-width: 768px) {
+  .video__content-subtitle {
+    margin-bottom: 48px;
+  }
+}
+
+@media (max-width: 375px) {
+  .video__content-subtitle {
+    margin-bottom: 24px;
+  }
+}

@@ -1,0 +1,12 @@
+.cover__link-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+  position: relative;
+  color: white;
+  text-decoration: none;
+  padding: 42px;
+  box-sizing: border-box;
+}

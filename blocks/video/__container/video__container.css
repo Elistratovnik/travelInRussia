@@ -1,0 +1,10 @@
+.video__container {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 570px) {
+  .video__container {
+    flex-direction: column;
+  }
+}

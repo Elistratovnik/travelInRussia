@@ -1,0 +1,30 @@
+@import url('__content-row/intro__content-row.css');
+@import url('__quote/intro__quote.css');
+@import url('__author/intro__author.css');
+@import url('__title/intro__title.css');
+@import url('__subtitle/intro__subtitle.css');
+@import url('__list/intro__list.css');
+@import url('__list-value/intro__list-value.css');
+@import url('__author-value/intro__author-value.css');
+
+.intro {
+  width: 100%;
+  max-width: 984px;
+  padding: 80px 0 96px 0;
+  font-family: 'Inter', Arial, sans-serif;
+}
+
+
+@media (max-width: 768px) {
+  .intro {
+    padding-bottom: 92px;
+  }
+}
+
+
+
+@media (max-width: 375px) {
+  .intro {
+    padding: 64px 0 64px 0;
+  }
+}

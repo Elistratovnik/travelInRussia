@@ -1,0 +1,31 @@
+.place__title {
+  display: inline-block;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 65px;
+  width: 457px;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .place__title {
+    width: 330px;
+    font-size: 42px;
+    line-height: 1.1;
+  }
+}
+
+@media (max-width: 500px) {
+  .place__title {
+    display: block;
+    width: 100%;
+  }
+}
+
+@media (max-width: 375px) {
+  .place__title {
+    font-size: 32px;
+    margin-bottom: 32px;
+  }
+}

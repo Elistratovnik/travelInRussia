@@ -1,0 +1,10 @@
+.intro__content-row {
+  display: flex;
+  margin-bottom: 14px;
+}
+
+@media (max-width: 768px) {
+  .intro__content-row {
+    margin-bottom: 25px;
+  }
+}

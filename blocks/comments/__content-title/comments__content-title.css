@@ -1,0 +1,22 @@
+.comments__content-title {
+  margin: 0 auto 38px auto;
+}
+
+@media (max-width: 1024px) {
+  .comments__content-title {
+    margin-bottom: 18px;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .comments__content-title {
+    margin-bottom: 28px;
+  }
+}
+
+@media (max-width: 320px) {
+  .comments__content-title {
+    margin-bottom: 12px;
+  }
+}

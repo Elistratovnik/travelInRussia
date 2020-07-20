@@ -1,0 +1,35 @@
+.places__place {
+  margin-bottom: 81px;
+}
+
+.places__place:last-child {
+  margin-bottom: 0;
+}
+
+@media (max-width: 1024px) {
+  .places__place {
+    margin-bottom: 89px;
+  }
+  .places__place:last-child {
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .places__place {
+    margin-bottom: 72px;
+  }
+  .places__place:last-child {
+    margin-bottom: 0;
+  }
+}
+
+
+@media (max-width: 375px) {
+  .places__place {
+    margin-bottom: 56px;
+  }
+  .places__place:last-child {
+    margin-bottom: 0;
+  }
+}

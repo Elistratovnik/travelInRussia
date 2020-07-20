@@ -1,0 +1,17 @@
+.place__image {
+  width: 100%;
+}
+
+@media (max-width: 375px) {
+  .place__image {
+    margin: 0 -1rem 20px;
+    width: calc(100% + 2rem);
+    min-height: 272px;
+  }
+}
+
+@media (max-width: 320px) {
+  .place__image {
+    min-height: 216px;
+  }
+}
